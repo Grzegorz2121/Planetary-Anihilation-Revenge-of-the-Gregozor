@@ -11,17 +11,75 @@
   "context": "server",
   "date": "2016-07-12",
   "dependencies": [],
-  "description": "Legion lord returns with the most powerful balance mod ever created. It's revenge of the Gregozor, It's the time of THE LEGION!",
+  "description": "Legion lord returns with the most powerful balance mod ever created It is revenge of the Gregozor It is the time of THE LEGION",
   "display_name": "Revenge of the Gregozor",
-  "download": "https://github.com/Grzegorz2121/Revenge-of-the-Gregozor/archive/master.zip",
+  "download": "https://github.com/Grzegorz2121/Kappa/raw/master/com.grzegorz.kappa.zip",
   "enabled": true,
   "fileSystem": false,
   "forum": "",
   "framework": false,
   "icon": "",
   "identifier": "com.revenge.ofgregozor",
-  "priority": "96",
-  "scenes": {},
+  "priority": "101",
+    "scenes": {
+        "server_browser": [
+            "coui://ui/mods/com.pa.legion-expansion/server_browser.js"
+        ],
+        "load_planet": [
+            "coui://ui/mods/com.pa.legion-expansion/load_planet.js"
+        ],
+        "settings": [
+            "coui://ui/mods/com.pa.legion-expansion/settings.js"
+        ],
+        "shared_build": [
+            "coui://ui/mods/com.pa.legion-expansion/shared_build.js"
+        ],
+        "live_game": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game.js"
+        ],
+        "live_game_players": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_players.js"
+        ],
+        "live_game_planets": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_planets.js"
+        ],
+        "live_game_control_group_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_control_group_bar.js"
+        ],
+        "live_game_options_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_options_bar.js"
+        ],
+        "live_game_econ": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_econ.js"
+        ],
+        "live_game_time_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_time_bar.js"
+        ],
+        "live_game_build_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_build_bar.js"
+        ],
+        "live_game_build_hover": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_build_hover.js"
+        ],
+        "live_game_action_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_action_bar.js"
+        ],
+        "live_game_selection": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_selection.js"
+        ],
+        "live_game_sandbox": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_sandbox.js"
+        ],
+        "live_game_menu": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_menu.js"
+        ],
+        "new_game": [
+            "coui://ui/mods/com.pa.legion-expansion/new_game.js"
+        ],
+        "start": [
+            "coui://ui/mods/com.pa.legion-expansion/start.js"
+        ]
+    },
   "searchable": [
     "false",
     "economy",
@@ -38,5 +96,5 @@
   "titansOnly": false,
   "unitList": false,
   "url": "https://github.com/Grzegorz2121/Revenge-of-the-Gregozor/archive/master.zip",
-  "version": "1"
+  "version": "0.03143"
 }
